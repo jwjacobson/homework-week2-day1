@@ -30,7 +30,7 @@ def isprime(x):
 
 print("\nPrimes up to 100:")
 for num in range(0, 101):
-    if isprime(num) == True:
+    if isprime(num):
         print(num)
 
 
